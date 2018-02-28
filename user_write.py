@@ -1,3 +1,8 @@
+import textwrap
+from text_1 import *
+from functions_1 import *
+import re
+
 print "Enter/Paste your content. Ctrl-D to save it."
 contents = []
 while True:
