@@ -9,6 +9,7 @@ place to organize ideas and plans for the project.
 
 ### Making a way to save text into a file
 
-- [ ] Make a file to save the text in
-- [ ] Take input from the user and save it into the file
+- [x] Make a file to save the text in
+- [x] Take input from the user and save it into the file
+- [ ] See if the text is choice or raw text using pointers [c], [t]
 - [ ] Make the user's input allow for choice, location of text, if a newline is present
