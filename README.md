@@ -1,2 +1,5 @@
 # project_kinn
-Story of wonders
+I will show you the WORLD
+
+# To Do
+- [ ] Finish the text input branch
