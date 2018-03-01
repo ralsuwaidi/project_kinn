@@ -12,7 +12,7 @@ def write_to_file(file_name):
         print line
         if "[c]" in line:
             count+=1
-    print "Write something and save it with CTRL+A then ENTER\n\n"
+    print "If you want to write a text use [t] before the text and if you want to write a choice use [c]\n\n"
     lines=[]
     while "^A" not in lines:
         new_line=raw_input("")
