@@ -36,7 +36,7 @@ while True:
     else:
         break
 
-#depending on the choice do these 
+#depending on the choice do these
 if ans==1:
     print "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
     print title
