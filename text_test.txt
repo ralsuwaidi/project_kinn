@@ -1,0 +1,11 @@
+[c] this is a choice command!!
+this will be the first choice
+this will be the last choice
+
+[t] this is just a normal text
+it should ave multiple lines
+
+maybe even wih spaces this is an appended line
+
+this is an appended line with two spaces behind it =D
+^A
