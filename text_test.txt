@@ -1,15 +1,1 @@
-<<<<<<< HEAD
-[c] this is a choice command!!!!!
-=======
-[c] this is a choice command
->>>>>>> c2a6a07b904a4b822db20f6ef61ba250a0740a84
-this will be the first choice
-this will be the last choice
-
-[t] this is just a normal text
-it should ave multiple lines
-
-maybe even wih spaces this is an appended line
-
-this is an appended line with two spaces behind it =D
-^A
+hi
