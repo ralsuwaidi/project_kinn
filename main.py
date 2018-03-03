@@ -5,6 +5,20 @@ from story import *
 import re
 import os
 
+print "Enter/Paste your content. Ctrl-D to save it."
+contents = []
+while True:
+    try:
+        line = raw_input("")
+    except EOFError:
+        break
+    contents.append(line)
+
+print "you typed:", contents
+
+v=raw_input("")
+
+
 title="""
 
  _____   _             _                          ___    _____ _
