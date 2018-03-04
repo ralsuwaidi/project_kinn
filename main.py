@@ -5,6 +5,7 @@ from story import *
 import re
 import os
 
+"""
 print "Enter/Paste your content. Ctrl-D to save it."
 contents = []
 while True:
@@ -17,7 +18,7 @@ while True:
 print "you typed:", contents
 
 v=raw_input("")
-
+"""
 
 title="""
 
@@ -28,13 +29,13 @@ title="""
 
 """
 menu="""
-+------------Project Kinn------------+
+                    +------------Project Kinn------------+
 
-   1. Start Story
-   2. Skip To Section
-   3. Info
+                       1. Start Story
+                       2. Skip To Section
+                       3. Info
 
-+------------------------------------+
+                    +------------------------------------+
 
 """
 print menu
