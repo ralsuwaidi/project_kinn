@@ -40,7 +40,6 @@ menu="""
 """
 print menu
 
-
 #Force user to choose
 while True:
     try:
@@ -58,7 +57,7 @@ if ans==1:
     print title
     all_story()
 elif ans==2:
-    skip_to=raw_input("Where do you want to skip to?\n Type: the name of the section\nArthur\n ...")
+    skip_to=raw_input("Where do you want to skip to?\n Type: the name of the section\nArthur\n ...\n\n")
     skip_to_story(skip_to)
 elif ans==3:
     print "Im About"
