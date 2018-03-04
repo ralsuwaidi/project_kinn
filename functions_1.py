@@ -29,3 +29,9 @@ def choice(lst,ans):
         else:
             print "Pick one of them by typing its letter :)"
 
+def skip_to_story(x):
+  if x.lower()=="arthur":
+    arthur()
+  elif x.lower()=="bambi":
+    bambi()
+    arthur()

@@ -5,8 +5,8 @@ import re
 import sys
 
 
-def write_to_file(file_name):
-    filename=file_name+".txt"
+def write_to_file(name):
+    filename="text_test.txt"
     count = 0
     for line in open(filename, 'r'):
         print line
@@ -14,13 +14,14 @@ def write_to_file(file_name):
             count+=1
     print "If you want to write a text use [t] before the text and if you want to write a choice use [c]\n\n"
     lines=[]
-    while "^A" not in lines:
+    while "END" not in lines:
         new_line=raw_input("")
         lines.append(new_line)
     print "saving to text done"
     with open(filename, 'a') as f:
         f.writelines("%s\n" % l for l in lines)
 
-v=raw_input("what is the file name?")
+
+v=raw_input("what is the your name?")
 write_to_file(v)
 v=raw_input("DONE")
