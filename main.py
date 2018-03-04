@@ -40,6 +40,7 @@ menu="""
 """
 print menu
 
+
 #Force user to choose
 while True:
     try:

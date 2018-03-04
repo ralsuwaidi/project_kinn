@@ -1,8 +1,8 @@
-import textwrap
+import textwrap, re, sys
 from text_1 import *
 from functions_1 import *
-import re
-import sys
+
+
 
 
 def write_to_file(name):
